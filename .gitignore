@@ -1,0 +1,16 @@
+# Dipendenze
+node_modules/
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+
+# Variabili d'ambiente (IMPORTANTE: non caricare mai le API KEY)
+.env
+.env.local
+.auth-config.json
+
