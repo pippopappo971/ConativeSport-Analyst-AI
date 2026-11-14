@@ -12,6 +12,17 @@ export interface AuthStatusResponse {
   sharedAppUrl?: string;
 }
 
+async function safeReadJson(response: Response): Promise<any> {
+  const rawText = await response.text();
+  try {
+    return rawText ? JSON.parse(rawText) : {};
+  } catch {
+    throw new Error(
+      `Risposta non valida dal server (HTTP ${response.status}). Verifica che le API /api/* siano attive sul deploy.`
+    );
+  }
+}
+
 export function getStoredAuthToken(): string {
   try {
     return localStorage.getItem(TOKEN_STORAGE_KEY) || '';
@@ -44,10 +55,10 @@ export async function checkAuthStatus(): Promise<AuthStatusResponse> {
       ...getAuthHeaders(),
     },
   });
+  const data = (await safeReadJson(response)) as AuthStatusResponse & { error?: string };
   if (!response.ok) {
-    throw new Error(`Errore verifica accesso HTTP ${response.status}`);
+    throw new Error(data?.error || `Errore verifica accesso HTTP ${response.status}`);
   }
-  const data = (await response.json()) as AuthStatusResponse;
   if (data.autoToken) {
     setStoredAuthToken(data.autoToken);
   }
@@ -66,7 +77,7 @@ export async function verifyAccessCode(params: {
     body: JSON.stringify(params),
   });
 
-  const data = await response.json();
+  const data = await safeReadJson(response);
   if (!response.ok) {
     throw new Error(data?.error || 'Codice di accesso non valido.');
   }
@@ -90,7 +101,7 @@ export async function updateAccessConfig(params: {
     body: JSON.stringify(params),
   });
 
-  const data = await response.json();
+  const data = await safeReadJson(response);
   if (!response.ok) {
     throw new Error(data?.error || 'Impossibile aggiornare le impostazioni di accesso.');
   }

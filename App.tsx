@@ -875,7 +875,8 @@ Generato con ConativeSport Analyst AI
                   onChange={(e) => setPinInput(e.target.value)}
                   placeholder="Inserisci il codice (es. SPORT2026)..."
                   autoComplete="off"
-                  className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-300 rounded-xl text-sm font-bold tracking-wider uppercase text-slate-900 focus:ring-2 focus:ring-blue-500 focus:bg-white outline-none transition-all"
+                  autoCapitalize="none"
+                  className="w-full pl-10 pr-4 py-3 bg-slate-50 border border-slate-300 rounded-xl text-sm font-bold tracking-wider text-slate-900 focus:ring-2 focus:ring-blue-500 focus:bg-white outline-none transition-all"
                 />
               </div>
             </div>
@@ -3187,7 +3188,8 @@ Generato con ConativeSport Analyst AI
                       value={friendPinDraft}
                       onChange={(e) => setFriendPinDraft(e.target.value)}
                       placeholder="Codice amici (min 4 caratteri)"
-                      className="flex-1 px-3.5 py-2.5 bg-white border border-slate-300 rounded-xl text-sm font-black uppercase tracking-widest text-slate-900 focus:ring-2 focus:ring-blue-500 outline-none"
+                      autoCapitalize="none"
+                      className="flex-1 px-3.5 py-2.5 bg-white border border-slate-300 rounded-xl text-sm font-black tracking-widest text-slate-900 focus:ring-2 focus:ring-blue-500 outline-none"
                     />
                     <button
                       type="button"
