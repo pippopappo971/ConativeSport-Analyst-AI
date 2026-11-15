@@ -14,3 +14,7 @@ build/
 .env.local
 .auth-config.json
 
+# Media pesanti e testi di riferimento accademici (evita il blocco GitHub 100 MB e il bloat su Vercel)
+public/assets/aistudio/*.mp3
+public/assets/aistudio/*.mp4
+public/assets/aistudio/Le_corps_mobilis*.pdf

@@ -504,7 +504,7 @@ ${resolvedCategory === SportCategory.DUAL_OPPOSITION && opponentDescription ? `-
 ${videoMetadata ? `- Dati Video: Durata ${videoMetadata.duration || 'N/D'} sec, Risoluzione ${videoMetadata.width || 'N/D'}x${videoMetadata.height || 'N/D'}` : ''}
 ${fullContext ? `- Contesto Aggiuntivo & Materiale Didattico:\n${fullContext}` : ''}
 
-**TEORIA FONDAMENTALE DELLA PEDAGOGIA CONATIVA (Gilles Bui-Xuân, Maurice Reuchlin):**
+**TEORIA FONDAMENTALE DELLA PEDAGOGIA CONATIVA & METACONATIVA (Gilles Bui-Xuân, Grégory Delboe, Maurice Reuchlin, Philippe Meirieu):**
 ${CONATIVE_KNOWLEDGE_BASE}
 
 ${sessionContextDirective}
@@ -514,21 +514,27 @@ ${privacyDirective ? `${privacyDirective}\n` : ''}${categoryDirective}
 **OBIETTIVO DELL'ANALISI MULTIMODALE BASATA SUI FOTOGRAMMI DEL VIDEO:**
 1. Esamina attentamente i fotogrammi catturati inserendo sempre TIMESTAMPS precisi nel formato [MM:SS] per ogni riscontro osservato.
 2. Compila 'analysisScopeSummary' con una frase sintetica e chiara che indichi l'oggetto effettivo dell'analisi (es. "Analisi Collettiva della Squadra di Pallavolo", "Confronto Duello 1 vs 1 nel Tennis", "Analisi Individuale di Nuoto", oppure "Focus su Atleta Specifico: ...").
-3. Identifica la TAPPA CONATIVA (1-5) secondo Gilles Bui-Xuân:
-   - Tappa 1 = EMOZIONALE (sicurezza, integrità fisica, risposte d'urgenza, blocco, gioco a grappolo).
-   - Tappa 2 = FUNZIONALE (ricerca pratica di efficacia per prove ed errori).
-   - Tappa 3 = TECNICA (conformità al modello esterno, ricerca del bel gesto isolato).
-   - Tappa 4 = CONTESTUALE (adattamento situazionale e tattico, lettura attiva del contesto).
-   - Tappa 5 = ESPERTA (sintesi totale Tai+Gi+Shin, stile personale, economia e anticipazione).
-4. Spiega la PREOCCUPAZIONE DOMINANTE (dell'atleta o della squadra a seconda della modalità) con timestamps [MM:SS].
-5. Valuta lo stato di CONSONANZA o CONFLITTO rispetto al senso dell'attività con timestamps [MM:SS].
+3. Identifica la TAPPA CONATIVA MACROSCOPICA (1-5) secondo Gilles Bui-Xuân:
+   - Tappa 1 = EMOZIONALE (preservazione di sé, integrità, risposte d'urgenza, blocco, gioco a grappolo; primato Tai).
+   - Tappa 2 = FUNZIONALE (ricerca pratica di efficacia per prove ed errori, "come funziona"; primato Shin grezzo).
+   - Tappa 3 = TECNICA (conformità al modello esterno, apprendimento morfocinetico, bel gesto isolato; primato Gi).
+   - Tappa 4 = CONTESTUALE (decentrazione dalla tecnica pura, azione concettuale e telecinetica adattata in tempo reale al contesto; Gi + Shin).
+   - Tappa 5 = ESPERTA (sintesi totale Tai+Gi+Shin, stile singolare, creazione ed economia metaconativa).
+   *Ricorda:* Sotto stress o opposizione superiore può avvenire una regressione massima di 1 tappa.
+4. In 'mobilization', oltre alla PREOCCUPAZIONE DOMINANTE con timestamps [MM:SS], specifica esplicitamente:
+   - Il **Processo Frattale attivo** dentro la tappa (Familiarizzazione, Impregnazione, Integrazione o Creazione-Innovazione) e l'eventuale episodio microscopico osservabile (Messa in Tensione, Épreuve/Destabilizzazione o Régulation).
+   - Se l'azione osservata è di natura morfocinetica (modello formale) o telecinetica (orientata al bersaglio/sensazione), e il rapporto tra sviluppo (Tai), apprendimento (Gi) ed educazione funzionale (Shin).
+5. In 'consonance', valuta con rigore lo stato dell'INCONTRO SOCIO-CONATIVO con timestamps [MM:SS], distinguendo chiaramente:
+   - **Dissonanza** (conflitto sui principi/senso dell'attività -> inibizione, blocco, ritiro),
+   - **Discordanza** (accordo sul principio ma conflitto su regole/modalità imposte -> tensione, rifiuto, condotte paradossali/mascheramento, rischio sindrome H/H),
+   - **Consonanza** (accordo su principi e regole -> piacere di agire, mobilitazione piena).
 6. Individua la principale MODALITÀ DI VITTORIA percepita: 'Misura', 'Conformità' oppure 'Punteggio'.
-7. Formula una SCHEDA DI ALLENAMENTO ORIZZONTALE (Situazione-Problema) coerente con la tipologia di sport e con l'oggetto dell'analisi (individuale o di squadra), in Markdown:
-   ### 🎯 OBIETTIVO PEDAGOGICO
-   ### 🛠️ SITUAZIONE-PROBLEMA
-   ### 📏 CRITERI DI RIUSCITA
-   ### 🔄 VARIANTI (DÉCALAGE)
-8. Formula una DOMANDA DI RIFLESSIONE METACONATIVA per stimolare la presa di coscienza.
+7. Formula una SCHEDA DI ALLENAMENTO ORIZZONTALE coerente con il principio integrativo *"A ogni tappa e processo il suo metodo"* (Tappa 1: metodo globale rassicurante/ludico; Tappa 2: Situazione-Problema aperta; Tappa 3: apprendimento tecnico mirato/modello; Tappa 4: Situazione di Risoluzione di Problemi complessi con scelta tattica; Tappa 5: autonomia e co-regolazione metaconativa), strutturata in Markdown con i 3 episodi microscopici (Messa in Tensione / Épreuve / Régulation):
+   ### 🎯 OBIETTIVO PEDAGOGICO & METODO INTEGRATIVO
+   ### 🛠️ DISPOSITIVO ORIZZONTALE (Messa in Tensione & Épreuve)
+   ### 📏 CRITERI DI RIUSCITA (Significato & Direzione)
+   ### 🔄 VARIANTI (DÉCALAGE) & RÉGULATION METACONATIVA
+8. Formula una DOMANDA DI RIFLESSIONE METACONATIVA ('metaReflection') concepita come **Valutazione Formatrice** (*méta-conduite*): deve aiutare direttamente l'atleta o l'allievo a prendere coscienza a posteriori della propria preoccupazione dominante, del senso dell'azione e della direzione del progresso successivo.
 9. Determina la ripartizione percentuale del Volume Conativo (interi 0-100) per Struttura (Tai), Tecnica (Gi), Funzionalità (Shin).
 `;
 
@@ -573,11 +579,13 @@ ${privacyDirective ? `${privacyDirective}\n` : ''}${categoryDirective}
         },
         consonance: {
           type: Type.STRING,
-          description: 'Spiegazione approfondita di consonanza o conflitto con timestamps [MM:SS]',
+          description:
+            'Analisi dell incontro socio-conativo (Dissonanza su principi/senso, Discordanza su regole/modalità o Consonanza) con timestamps [MM:SS]',
         },
         mobilization: {
           type: Type.STRING,
-          description: 'Analisi della preoccupazione dominante e della mobilitazione conativa con timestamps [MM:SS]',
+          description:
+            'Analisi della preoccupazione dominante, del processo frattale attivo (Familiarizzazione, Impregnazione, Integrazione, Creazione-Innovazione) e natura morfocinetica/telecinetica con timestamps [MM:SS]',
         },
         victoryModality: {
           type: Type.STRING,
@@ -585,11 +593,13 @@ ${privacyDirective ? `${privacyDirective}\n` : ''}${categoryDirective}
         },
         trainingSheet: {
           type: Type.STRING,
-          description: 'Scheda di allenamento orizzontale come situazione-problema in formato Markdown',
+          description:
+            'Scheda di allenamento orizzontale in Markdown calibrata con A ogni tappa/processo il suo metodo',
         },
         metaReflection: {
           type: Type.STRING,
-          description: 'Domanda stimolo di riflessione metaconativa',
+          description:
+            'Domanda stimolo di valutazione formatrice e riflessione metaconativa (méta-conduite)',
         },
         graphData: {
           type: Type.OBJECT,
@@ -970,12 +980,12 @@ ${
 ${resolvedCategory === SportCategory.DUAL_OPPOSITION && opponentDescription ? `- Avversario: ${opponentDescription}` : ''}
 ${notes ? `- Note docente/allenatore: ${notes}` : ''}
 
-Analizza questa sequenza istantanea di fotogrammi appena catturati dalla fotocamera live secondo la Pedagogia Conativa di Gilles Bui-Xuân:
+Analizza questa sequenza istantanea di fotogrammi appena catturati dalla fotocamera live secondo la Pedagogia Conativa e Metaconativa di Gilles Bui-Xuân e Grégory Delboe:
 1. Determina la TAPPA CONATIVA attuale (1=EMOZIONALE, 2=FUNZIONALE, 3=TECNICA, 4=CONTESTUALE, 5=ESPERTA).
-   ATTENZIONE: negli sport 1vs1 se un atleta target è passivo, bloccato o non porta attacchi, è Tappa 1 o 2 (MAI 4 o 5!).
-2. Descrivi in 1-2 frasi chiare e oggettive cosa sta succedendo in questo istante ('liveObservation').
+   ATTENZIONE: negli sport 1vs1 se un atleta target è passivo, bloccato o non porta attacchi, è Tappa 1 o 2 (MAI 4 o 5!). Tieni conto dell eventuale regressione di 1 tappa sotto pressione.
+2. Descrivi in 1-2 frasi chiare e oggettive cosa sta succedendo in questo istante ('liveObservation'), indicando se prevale Familiarizzazione, Impregnazione, Integrazione o Creazione e se emerge Consonanza, Discordanza o Dissonanza.
 3. Indica la preoccupazione dominante visibile ora ('dominantPreoccupation').
-4. Formula un CONSIGLIO PEDAGOGICO / TATTICO IMMEDIATO ('immediateCue'): una frase pratica e diretta che il docente/allenatore può dire o applicare SUBITO sul campo (adattata a ${resolvedSessionContext}).
+4. Formula un CONSIGLIO PEDAGOGICO / METACONATIVO IMMEDIATO ('immediateCue'): una frase pratica e diretta basata su "A ogni tappa/processo il suo metodo" e sulla valutazione formatrice, pronta da usare SUBITO sul campo (adattata a ${resolvedSessionContext}).
 ${
   resolvedCategory === SportCategory.DUAL_OPPOSITION
     ? "5. Indica in 'duelLeader' chi dei due contendenti sta combattendo al livello più alto e imponendo il proprio gioco in questo momento."
