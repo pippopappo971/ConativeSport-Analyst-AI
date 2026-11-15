@@ -6,22 +6,27 @@ export const CONATIVE_KNOWLEDGE_BASE = `
 *   **GI (Tecnica):** L'apprendimento tecnico, il "saper fare", l'esecuzione di modelli. La riproduzione di gesti "belli" o "conformi" a un modello. Dominante nella "Conformità".
 *   **SHIN (Funzionalità):** La mobilizzazione della funzione motoria e mentale; l'intelligenza pratica e situazionale, la capacità di risolvere problemi e di adattarsi. È la "scienza del combattimento". Dominante nel "Punteggio" e nelle fasi più avanzate. Secondo Kano e Bui-Xuan, è la dimensione più importante.
 
-**2. Le 5 Tappe della Mobilitazione (Curriculum Conativo):**
-*   **Tappa 1: EMOZIONALE (Primato della Struttura / Sicurezza)**
-    L'atleta è dominato dall'emozione (paura, sfida) e dalla necessità di preservare la propria integrità fisica. La mobilizzazione è centrata sulla **Struttura (Tai)**. La funzionalità è limitata dall'emozione. La vittoria è percepita come "sopravvivenza", "sicurezza" o "il più forte vince".
-    *   **Pedagogia:** Metodi globali, giochi di forza.
-*   **Tappa 2: FUNZIONALE (Primato del Funzionamento / Efficacia)**
-    L'atleta inizia a porsi domande ("come non perdere?", "come si procede?"). Mobilita l'intelligenza pratica e la **Funzionalità (Shin)** per cercare soluzioni ai problemi motori immediati tramite prove ed errori. Inizia a educare la propria motricità e funzioni mentali. La vittoria è "riuscita del compito".
-    *   **Pedagogia:** Situazioni-problema (senza soluzioni date, si enfatizza la ricerca).
-*   **Tappa 3: TECNICA (Primato della Tecnica / Conformità)**
-    L'atleta si confronta con modelli esterni ("come fanno quelli che riescono?", "il bel gesto"). Cerca la conformità e l'automatizzazione della **Tecnica (Gi)**. Si focalizza sull'apprendimento e l'esecuzione tecnica. La vittoria è "bellezza del gesto" o "fedeltà al modello".
-    *   **Pedagogia:** Tutte le forme di apprendimento per automatizzare le tecniche (dimostrazione, spiegazione, video, ripetizioni).
-*   **Tappa 4: CONTESTUALE (Primato del Contesto / Efficienza)**
-    L'atleta decentra l'attenzione dalla singola tecnica e si interessa al contesto, combinando **Tecnica e Funzionalità (Gi + Shin)**. Adatta la tecnica alle variazioni dell'ambiente e dell'avversario. Emerge la strategia e la tattica. L'azione è guidata da un "concetto" (es. gestione dello squilibrio nel Judo). La vittoria è "efficienza strategica" o "punteggio".
-    *   **Pedagogia:** Situazioni di risoluzione di problemi (con più soluzioni possibili, si enfatizza la scelta della migliore). L'obiettivo dell'insegnante è portare l'allievo a questa tappa.
-*   **Tappa 5: ESPERTA (Primato della Creazione / Stile)**
-    L'atleta integra e sfrutta in modo autonomo tutte e tre le dimensioni (**Struttura + Funzionalità + Tecnica**), coordinandole per creare il proprio stile personale e soluzioni inedite. Ottimizzazione delle risorse e saggezza motoria. Il "campione" o "innovatore". La vittoria è "saggezza motoria" e "stile personale".
-    *   **Pedagogia:** L'insegnante si allontana, l'allievo ha autonomia totale nella gestione (allenamento, preparazione mentale, ecc.).
+**2. Le 5 Tappe della Mobilitazione (Curriculum Conativo — Documento di Riferimento Ufficiale):**
+*   **Livello 1 — Tappa Emozionale (Primato della Struttura / Preservazione di sé):**
+    Il soggetto è effettivamente **focalizzato su se stesso** attraverso una **reazione di difesa della propria integrità di fronte all'ignoto**. La mobilitazione è dominata dalle **capacità strutturali (fisiche ed emotive) già disponibili** (Tai), e l'azione è orientata alla **preservazione di sé** piuttosto che all'efficienza tecnica. La vittoria è percepita come "sopravvivenza", "sicurezza" o "il più forte vince".
+    *   *Indicatori visivi:* blocco, irrigidimento difensivo, evitamento del contatto, gioco a grappolo attorno alla palla o reazioni d'urgenza per proteggersi.
+    *   *Pedagogia:* Metodi globali, rassicurazione emotiva, giochi di forza e fiducia.
+*   **Livello 2 — Tappa Funzionale (Primato del Funzionamento / "Come funziona"):**
+    La concentrazione si sposta sul **"come funziona"**. Il soggetto cerca di comprendere i **principi d'azione** e attinge ai **propri processi funzionali** (Shin) per trovare risposte ai problemi posti dal compito. È una fase di **scoperta per prove ed errori** in cui l'obiettivo è la **funzionalità** e la riuscita pratica immediata.
+    *   *Indicatori visivi:* azioni grezze ma intenzionali per risolvere il problema, tentativi ripetuti, efficacia empirica senza ancora curare la forma estetica del gesto.
+    *   *Pedagogia:* Situazioni-problema aperte (senza soluzioni date, si enfatizza l'esplorazione e la ricerca).
+*   **Livello 3 — Tappa Tecnica (Primato della Tecnica / Miglioramento dei mezzi):**
+    L'attenzione è rivolta al **miglioramento dei mezzi**. Il soggetto si concentra sull'**acquisizione di modelli efficaci ("cosa fanno quelli che riescono?")** e sull'**integrazione di savoir-faire e routine tecniche** (Gi). È una fase di **accumulo tecnico, de-costruzione e ripetizione per automatizzare il gesto**.
+    *   *Indicatori visivi:* ricerca del "bel gesto", fedeltà al modello scolastico, esecuzione talvolta rigida o scolastica anche quando la situazione richiederebbe un adattamento diverso.
+    *   *Pedagogia:* Apprendimento tecnico mirato (dimostrazione, scomposizione, feedback sul modello, ripetizioni per automatizzare).
+*   **Livello 4 — Tappa di Contestualizzazione (Decentrazione & Azione Concettuale):**
+    In questo livello avviene una **decentrazione dalla tecnica pura** per affrontare la **complessità del contesto**. Il soggetto comprende il **senso profondo dell'azione** e riesce a **mettere in relazione le tecniche acquisite con le esigenze mutevoli dell'ambiente** (Gi + Shin). **L'azione diventa concettuale e si adatta in tempo reale all'obiettivo esterno** (es. gestione attiva dello squilibrio/kuzushi, letture spaziali, finte e variazioni tattiche).
+    *   *Indicatori visivi:* scelta pertinente del gesto giusto al momento giusto, adattamento fluido all'avversario, ai compagni o all'ambiente, anticipazione situazionale.
+    *   *Pedagogia:* Situazioni di risoluzione di problemi complessi (con più soluzioni possibili, enfatizzando la lettura tattica e la scelta ottimale).
+*   **Livello 5 — Tappa di Espertezza e Creazione (Padronanza Totale & Innovazione):**
+    Qui il soggetto raggiunge la **piena padronanza di tutte le componenti (strutturali Tai, tecniche Gi e funzionali Shin)**. Questa maestria permette una **produzione originale e singolare**, dove l'individuo non solo usa i mezzi esistenti, ma **crea nuove tecniche e innova**, personalizzando la propria prestazione in modo **autonomo** e con massima economia motoria.
+    *   *Indicatori visivi:* stile unico e personale, creatività inedita sotto pressione, sintesi armonica ed economica di forza, tecnica e lettura strategica.
+    *   *Pedagogia:* Autonomia progettuale, confronto metaconativo tra pari e auto-regolazione avanzata.
 
 **3. Modalità di Vittoria negli Sport:**
 *   **MISURA:** La vittoria dipende dalla **Struttura (Tai)** dell'individuo (es. forza, velocità, distanza).
@@ -33,11 +38,11 @@ L'insieme di motivazioni, sentimenti, sensazioni, significati, esperienza e affe
 
 **5. Il Curriculum Conativo e la Preoccupazione Dominante (Bui-Xuân):**
 In ogni tappa, l'allievo è guidato da una "preoccupazione dominante":
-- Tappa 1 (Emozionale): Preoccupazione per la sicurezza e l'integrità corporea (Tai).
-- Tappa 2 (Funzionale): Preoccupazione per l'efficacia pratica ("come far funzionare il gesto", Shin).
-- Tappa 3 (Tecnica): Preoccupazione per la conformità al modello esterno ("il gesto corretto", Gi).
-- Tappa 4 (Contestuale): Preoccupazione per l'adattamento tattico e l'efficienza situazionale (Gi + Shin).
-- Tappa 5 (Esperta): Preoccupazione per la creatività, l'innovazione e lo stile personale (Tai + Gi + Shin).
+- Livello 1 (Tappa Emozionale): Difesa della propria integrità di fronte all'ignoto, preservazione di sé tramite le capacità strutturali disponibili (Tai).
+- Livello 2 (Tappa Funzionale): Capire "come funziona", comprensione empirica dei principi d'azione per prove ed errori (Shin).
+- Livello 3 (Tappa Tecnica): Miglioramento dei mezzi, acquisizione di modelli efficaci ("cosa fanno quelli che riescono?"), routine e automatizzazione del gesto (Gi).
+- Livello 4 (Tappa di Contestualizzazione): Decentrazione dalla tecnica pura, azione concettuale che mette in relazione le tecniche acquisite con le esigenze mutevoli del contesto in tempo reale (Gi + Shin).
+- Livello 5 (Tappa di Espertezza e Creazione): Piena padronanza Tai + Gi + Shin, produzione originale e singolare, creazione di nuove tecniche e personalizzazione autonoma.
 
 ---
 
@@ -86,6 +91,13 @@ Questo video illustra visivamente il curriculum conativo come un modello frattal
 -   **Importante:** I processi conativi (familiarizzazione, impregnazione, integrazione, creazione-innovazione) non seguono un ordine logico o sequenziale come le tappe, ma possono essere mobilitati in modo differenziato all'interno di una stessa tappa.
 `;
 
-// Add a default system instruction for the AI.
-export const SYSTEM_INSTRUCTION = `Sei un AI Engine di un'app professionale per l'analisi pedagogica sportiva. Il tuo scopo è analizzare video e situare gli allievi nel loro livello conativo basandoti sui PDF caricati e inserire nell'analisi il grafico caricato come esempio.
-Segui attentamente le istruzioni fornite nel prompt utente per l'analisi e il formato di output.`;
+// System instruction tuned to the canonical 5 Conative Stages reference document.
+export const SYSTEM_INSTRUCTION = `Sei il motore AI di un'applicazione professionale di Pedagogia Conativa applicata allo Sport e all'Educazione Fisica (modello Gilles Bui-Xuân / Jigoro Kano / Maurice Reuchlin).
+Il tuo compito è osservare con rigore i fotogrammi video e situare fedelmente l'atleta o la squadra nel proprio Livello Conativo reale (da 1 a 5), distinguendo con precisione:
+- Livello 1 (Tappa Emozionale): focalizzazione su se stesso, difesa della propria integrità di fronte all'ignoto, preservazione di sé tramite capacità strutturali già disponibili.
+- Livello 2 (Tappa Funzionale): attenzione su "come funziona", comprensione dei principi d'azione, scoperta per prove ed errori orientata alla funzionalità.
+- Livello 3 (Tappa Tecnica): attenzione al miglioramento dei mezzi, acquisizione di modelli efficaci ("cosa fanno quelli che riescono?"), integrazione di savoir-faire e ripetizione per automatizzare il gesto.
+- Livello 4 (Tappa di Contestualizzazione): decentrazione dalla tecnica pura, comprensione del senso profondo dell'azione, azione concettuale adattata in tempo reale alle esigenze mutevoli del contesto.
+- Livello 5 (Tappa di Espertezza e Creazione): piena padronanza strutturale, tecnica e funzionale, produzione originale e singolare, creazione di nuove tecniche e innovazione autonoma.
+
+Non attribuire mai Livelli 4 o 5 a chi esegue gesti meccanici slegati dal contesto (Livello 3) o a chi subisce/si protegge senza iniziativa (Livello 1). Segui rigorosamente le istruzioni e lo schema JSON richiesti nel prompt utente.`;

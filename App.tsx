@@ -2161,9 +2161,9 @@ Generato con ConativeSport Analyst AI
                       1
                     </span>
                     <div>
-                      <strong className="text-slate-800 font-bold block">Tappa 1: Emozionale (Sicurezza / Tai)</strong>
+                      <strong className="text-slate-800 font-bold block">Livello 1: Tappa Emozionale (Preservazione di sé / Tai)</strong>
                       <span className="text-slate-500 text-[11px] leading-tight block">
-                        Preoccupazione centrata sulla sicurezza fisica e sull'emotività. Risposte d'urgenza o difesa passiva.
+                        Focalizzato su se stesso, difende la propria integrità di fronte all'ignoto usando le capacità strutturali già disponibili.
                       </span>
                     </div>
                   </div>
@@ -2174,9 +2174,9 @@ Generato con ConativeSport Analyst AI
                       2
                     </span>
                     <div>
-                      <strong className="text-slate-800 font-bold block">Tappa 2: Funzionale (Efficacia / Shin)</strong>
+                      <strong className="text-slate-800 font-bold block">Livello 2: Tappa Funzionale ("Come funziona" / Shin)</strong>
                       <span className="text-slate-500 text-[11px] leading-tight block">
-                        Ricerca empirica di soluzioni pratiche per tentativi ed errori. L'obiettivo è "far riuscire il compito".
+                        Cerca di capire i principi d'azione per prove ed errori usando i propri processi funzionali per trovare risposte al compito.
                       </span>
                     </div>
                   </div>
@@ -2187,9 +2187,9 @@ Generato con ConativeSport Analyst AI
                       3
                     </span>
                     <div>
-                      <strong className="text-slate-800 font-bold block">Tappa 3: Tecnica (Conformità al Modello / Gi)</strong>
+                      <strong className="text-slate-800 font-bold block">Livello 3: Tappa Tecnica (Miglioramento dei Mezzi / Gi)</strong>
                       <span className="text-slate-500 text-[11px] leading-tight block">
-                        Confronto con modelli esterni di riferimento. Ricerca del gesto corretto, della fedeltà tecnica e dell'automatizzazione.
+                        Acquisisce modelli efficaci ("cosa fanno quelli che riescono?"): accumulo tecnico, savoir-faire e ripetizione per automatizzare.
                       </span>
                     </div>
                   </div>
@@ -2200,9 +2200,9 @@ Generato con ConativeSport Analyst AI
                       4
                     </span>
                     <div>
-                      <strong className="text-slate-800 font-bold block">Tappa 4: Contestuale (Efficienza Situazionale / Gi + Shin)</strong>
+                      <strong className="text-slate-800 font-bold block">Livello 4: Tappa di Contestualizzazione (Azione Concettuale / Gi + Shin)</strong>
                       <span className="text-slate-500 text-[11px] leading-tight block">
-                        Adattamento della tecnica all'ambiente, all'avversario e al contesto tattico (es. gestione attiva dello squilibrio e tempismo).
+                        Decentrazione dalla tecnica pura: comprende il senso dell'azione e adatta le tecniche in tempo reale alle esigenze del contesto.
                       </span>
                     </div>
                   </div>
@@ -2213,9 +2213,9 @@ Generato con ConativeSport Analyst AI
                       5
                     </span>
                     <div>
-                      <strong className="text-slate-800 font-bold block">Tappa 5: Esperta (Creazione & Stile / Tai + Gi + Shin)</strong>
+                      <strong className="text-slate-800 font-bold block">Livello 5: Espertezza e Creazione (Padronanza Totale / Tai + Gi + Shin)</strong>
                       <span className="text-slate-500 text-[11px] leading-tight block">
-                        Integrazione e autonomia totale. Creazione di uno stile personale, anticipazione motoria e massima economia di sforzo.
+                        Piena padronanza di tutte le componenti: produzione originale e singolare, crea nuove tecniche e innova in modo autonomo.
                       </span>
                     </div>
                   </div>
