@@ -1,0 +1,10 @@
+{
+  "name": "ConativeSport Analyst",
+  "description": "Professional sports pedagogical analysis app based on Conative Pedagogy principles. Analyzes student videos to determine conative stages, consonance/conflict, and generates training sheets.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

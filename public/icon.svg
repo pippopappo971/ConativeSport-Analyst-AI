@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#101B2F" />
+  <!-- Tai (Struttura - Verde Smeraldo) -->
+  <path d="M235 96C145 108 82 190 94 280C106 370 188 432 278 420" stroke="#10B981" stroke-width="28" stroke-linecap="round" />
+  <!-- Gi (Tecnica - Blu Cobalto) -->
+  <path d="M168 386C116 322 126 226 190 174C254 122 350 132 402 196" stroke="#2563EB" stroke-width="28" stroke-linecap="round" />
+  <!-- Shin (Funzionalita - Bianco) -->
+  <path d="M364 156C424 214 426 310 368 370C310 430 214 432 154 374" stroke="#F8FAFC" stroke-width="24" stroke-linecap="round" />
+  <!-- Figura dinamica dell'atleta -->
+  <circle cx="304" cy="176" r="24" fill="#FFFFFF" />
+  <path d="M188 214C216 184 252 178 280 198L322 232L356 204C364 198 374 206 368 216L330 264C324 270 314 270 306 264L282 246L252 280L302 308C310 312 312 324 306 332L244 388C236 394 224 388 228 378L258 326L214 300L164 366C156 374 142 366 148 354L202 262L242 222L204 220C194 220 184 218 188 214Z" fill="#FFFFFF" />
+</svg>

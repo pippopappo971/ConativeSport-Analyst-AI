@@ -1,0 +1,20 @@
+# Dipendenze
+node_modules/
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+
+# Variabili d'ambiente (IMPORTANTE: non caricare mai le API KEY)
+.env
+.env.local
+.auth-config.json
+
+# Media pesanti e testi di riferimento accademici (evita il blocco GitHub 100 MB e il bloat su Vercel)
+public/assets/aistudio/*.mp3
+public/assets/aistudio/*.mp4
+public/assets/aistudio/Le_corps_mobilis*.pdf
